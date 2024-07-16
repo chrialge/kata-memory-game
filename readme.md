@@ -1,5 +1,5 @@
-<aside>
-📚 esercizio di oggi: Arcade: Memory Game
+# Introduction
+
 nome repo: **kata-memory-game**
 
 Il gioco Memory è un classico passatempo che mette alla prova la memoria visiva dei giocatori. L'obiettivo è trovare tutte le coppie di carte identiche facendo meno errori o nel minor tempo possibile.
@@ -23,5 +23,5 @@ Ti servirà!
 
 Buon divertimento 👾
 
-</aside>
+
 
