@@ -11,6 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 
 }
 
@@ -43,16 +45,15 @@ body {
 
 #app_memory {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+
 
 
     .left {
 
-        flex-shrink: 1;
+        width: calc(100% - 400px);
 
         .row {
-            margin: 0 200px;
+            margin: 0 100px;
             display: flex;
             flex-wrap: wrap;
 
@@ -68,13 +69,33 @@ body {
 
             @media (max-width:900px) {
                 margin: 10px 5px;
+                width: 100%;
             }
         }
     }
 
     .right {
+        width: 400px;
         padding-right: 30px;
         padding-top: 20px;
+
+        .info {
+
+            &>span {
+                line-height: 22px;
+            }
+        }
+
+        .rules {
+
+
+
+            &>ul>li {
+                list-style: square;
+                line-height: 26px;
+            }
+
+        }
 
     }
 

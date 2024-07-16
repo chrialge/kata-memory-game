@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body title="memory game img">
 
     <main id="app_memory">
 
@@ -25,15 +25,25 @@
             <div class="title_game">
                 <h1>Memory Game</h1>
             </div>
-            <div class="rule">
+            <div class="info">
                 <span>Abbina i simboli uguali e scopri tutta la griglia</span>
             </div>
             <div class="number_error">
                 <h3 id="number_errors">Errorri: 0</h3>
             </div>
-            <div class="restart" onclick="restart()">
-                <h3 class='start-btn'>RESTART</h3>
+            <div class="rules">
+                <p>
+                    <strong>REGOLE: </strong>
+                <ul>
+                    <li>Perdi se fai piu di 6 errori</li>
+                    <li>Vinci se trovi tutte le combinazioni</li>
+                </ul>
+                </p>
             </div>
+            <div class="restart" onclick="restart()" role="button" tabindex="0" onkeypress="restart()">
+                <h3 class='start-btn' aria-hidden="true">RESTART</h3>
+            </div>
+
         </div>
 
     </main>
